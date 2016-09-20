@@ -1,7 +1,9 @@
 public class LibroCalificaciones {
 
-    public void mostrarMensaje(){
-        System.out.println("Bienvenido al Libro de Calificaciones");
+    public void mostrarMensaje(String nombreDelCurso){
+        System.out.printf("Bienvenido al libro de calificaciones para\n%s!\n",
+            nombreDelCurso);
+            
     }
 
 }
